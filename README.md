@@ -18,7 +18,9 @@ The `ls` command is used to display a list of contents in a directory.
 ls
 ```
 
-**Output:**
+**pwOutput:**
+![image](https://github.com/user-attachments/assets/5b359783-294e-4c1b-ad8d-86dfffda4dab)
+
 
 ### 2. `pwd` Command
 
@@ -30,6 +32,8 @@ pwd
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/565c3ba6-86f4-4a9c-ac4c-661604f695c1)
+
 
 ### 3. `mkdir` Command
 
@@ -38,9 +42,12 @@ The `mkdir` command is used to create a new directory.
 **Syntax:**
 ```bash
 mkdir <directory_name>
+mkdir cloud
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/8e86d415-fff4-404a-9713-9a71a0a9c7f8)
+
 
 ### 4. `rmdir` Command
 
@@ -49,9 +56,12 @@ The `rmdir` command is used to delete a directory.
 **Syntax:**
 ```bash
 rmdir <directory_name>
+rmdir cloud
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/9863ccd9-331d-4d68-88c9-a0a28cbaf691)
+
 
 ### 5. `cd` Command
 
@@ -60,9 +70,13 @@ The `cd` command is used to change the current directory.
 **Syntax:**
 ```bash
 cd <directory_name>
+create a directory : mkdir cloud1
+change the current directory : cd cloud1c
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/ed658dda-4b8c-4c71-b154-eca73f4a0332)
+
 
 ### 6. `cat` Command
 
@@ -71,9 +85,12 @@ The `cat` command is used to create, display, and concatenate files.
 **Syntax:**
 ```bash
 cat [OPTION]... [FILE]...
+cat filename.txt
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/db943ee0-c4bd-4d42-8d3f-97deb2ae3973)
+
 
 ### 7. `cp` Command
 
@@ -82,9 +99,11 @@ The `cp` command is used to copy files or directories.
 **Syntax:**
 ```bash
 cp <source_file> <destination_file>
+cp filename.txt filename1.txt    
 ```
-
 **Output:**
+![image](https://github.com/user-attachments/assets/77d3a031-0300-47c2-b7cd-0ef428c49b28)
+
 
 ### 8. `gedit` Command
 
@@ -104,9 +123,12 @@ The `su` command provides administrative access to another user.
 **Syntax:**
 ```bash
 su <username>
+su root
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/da3d9bab-1f43-4fd2-936d-cd5d208eb605)
+
 
 ### 10. `mv` Command
 
@@ -115,9 +137,13 @@ The `mv` command is used to move a file or directory from one location to anothe
 **Syntax:**
 ```bash
 mv <file_name> <directory_path>
+mv filename.txt cloud2
+
 ```
 
 **Output:**
+![image](https://github.com/user-attachments/assets/a18d0a45-75ba-456a-8dfb-8e96b44bd105)
+
 
 ### 11. `rename` Command
 
