@@ -9,7 +9,7 @@
 
 Linux commands are executed in the terminal, which is case-sensitive. This guide covers some basic and advanced commands used in Linux.
 
-### 1. `ls` Command
+## 1. `ls` Command
 
 The `ls` command is used to display a list of contents in a directory.
 
@@ -18,11 +18,11 @@ The `ls` command is used to display a list of contents in a directory.
 ls
 ```
 
-**pwOutput:**
+### Output:
 ![image](https://github.com/user-attachments/assets/5b359783-294e-4c1b-ad8d-86dfffda4dab)
 
 
-### 2. `pwd` Command
+## 2. `pwd` Command
 
 The `pwd` command displays the location of the current working directory.
 
@@ -30,12 +30,11 @@ The `pwd` command displays the location of the current working directory.
 ```bash
 pwd
 ```
-
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/565c3ba6-86f4-4a9c-ac4c-661604f695c1)
 
 
-### 3. `mkdir` Command
+## 3. `mkdir` Command
 
 The `mkdir` command is used to create a new directory.
 
@@ -45,11 +44,11 @@ mkdir <directory_name>
 mkdir cloud
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/8e86d415-fff4-404a-9713-9a71a0a9c7f8)
 
 
-### 4. `rmdir` Command
+## 4. `rmdir` Command
 
 The `rmdir` command is used to delete a directory.
 
@@ -59,7 +58,7 @@ rmdir <directory_name>
 rmdir cloud
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/9863ccd9-331d-4d68-88c9-a0a28cbaf691)
 
 
@@ -74,11 +73,11 @@ create a directory : mkdir cloud1
 change the current directory : cd cloud1c
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/ed658dda-4b8c-4c71-b154-eca73f4a0332)
 
 
-### 6. `cat` Command
+## 6. `cat` Command
 
 The `cat` command is used to create, display, and concatenate files.
 
@@ -88,11 +87,11 @@ cat [OPTION]... [FILE]...
 cat filename.txt
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/db943ee0-c4bd-4d42-8d3f-97deb2ae3973)
 
 
-### 7. `cp` Command
+## 7. `cp` Command
 
 The `cp` command is used to copy files or directories.
 
@@ -101,11 +100,11 @@ The `cp` command is used to copy files or directories.
 cp <source_file> <destination_file>
 cp filename.txt filename1.txt    
 ```
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/77d3a031-0300-47c2-b7cd-0ef428c49b28)
 
 
-### 8. `gedit` Command
+## 8. `gedit` Command
 
 `gedit` is a general-purpose text editor used to create and edit text files.
 
@@ -114,9 +113,9 @@ cp filename.txt filename1.txt
 gedit <file_name>
 ```
 
-**Output:**
+### Output:
 
-### 9. `su` Command
+## 9. `su` Command
 
 The `su` command provides administrative access to another user.
 
@@ -126,11 +125,11 @@ su <username>
 su root
 ```
 
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/da3d9bab-1f43-4fd2-936d-cd5d208eb605)
 
 
-### 10. `mv` Command
+## 10. `mv` Command
 
 The `mv` command is used to move a file or directory from one location to another.
 
@@ -140,12 +139,11 @@ mv <file_name> <directory_path>
 mv filename.txt cloud2
 
 ```
-
-**Output:**
+### Output:
 ![image](https://github.com/user-attachments/assets/a18d0a45-75ba-456a-8dfb-8e96b44bd105)
 
 
-### 11. `rename` Command
+## 11. `rename` Command
 
 The `rename` command is used to rename files.
 
@@ -154,9 +152,9 @@ The `rename` command is used to rename files.
 rename 's/old-name/new-name/' <files>
 ```
 
-**Output:**
+### Output:
 
-### 12. `head` Command
+## 12. `head` Command
 
 The `head` command displays the first 10 lines of a file.
 
@@ -165,9 +163,9 @@ The `head` command displays the first 10 lines of a file.
 head <file_name>
 ```
 
-**Output:**
+### Output:
 
-### 13. `tail` Command
+## 13. `tail` Command
 
 The `tail` command displays the last 10 lines of a file.
 
@@ -176,9 +174,9 @@ The `tail` command displays the last 10 lines of a file.
 tail <file_name>
 ```
 
-**Output:**
+### Output:
 
-### 14. `id` Command
+## 14. `id` Command
 
 The `id` command displays the user ID (UID) and group ID (GID).
 
@@ -187,7 +185,9 @@ The `id` command displays the user ID (UID) and group ID (GID).
 id
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/ad42807e-d328-4d8d-97e3-fb18dd632c9f)
+
 
 ### 15. `grep` Command
 
@@ -198,7 +198,9 @@ The `grep` command is used to search for a pattern within files.
 command | grep <search_word>
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/aad161ad-1d4d-4252-b154-22fcd6944ff2)
+
 
 ### 16. `tr` Command
 
@@ -285,9 +287,13 @@ The `host` command is used to display the IP address for a given domain name.
 **Syntax:**
 ```bash
 host <domain_name> or <ip_address>
+host www.amazon.com
+
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/a551b58b-26cd-4056-bc7f-38d0b531d21e)
+
 
 ### 24. `gzip` Command
 
@@ -353,7 +359,9 @@ The `df` command displays the disk space usage of file systems.
 df
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/079d7864-67a3-4246-b85a-7fed76b5e334)
+
 
 ### 30. `find` Command
 
@@ -362,8 +370,12 @@ The `find` command is used to search for files in a directory hierarchy.
 **Syntax:**
 ```bash
 find <directory> -name <file_name>
+find /etc -name "passwd"
+
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/74844dc1-0c8a-45d3-ac0d-93da990187ca)
+
 
 ## Result
