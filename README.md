@@ -257,7 +257,7 @@ make [-f makefile] [options] [targets]
 
 **Output:**
 
-### 21. `ifconfig` Command
+###\ 21. `ifconfig` Command
 
 The `ifconfig` command is used to configure network interfaces.
 
@@ -266,9 +266,11 @@ The `ifconfig` command is used to configure network interfaces.
 ifconfig [options] [interface]
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/2f4044fd-18f2-412f-9c12-b8b04a09a808)
 
-### 22. `chmod 777` Command
+
+## 22. `chmod 777` Command
 
 The `chmod 777` command gives read, write, and execute permissions to the owner, group, and others.
 
@@ -278,9 +280,9 @@ chmod 777 <file_name>
 chmod -R 777 /path/to/file/or/folder
 ```
 
-**Output:**
+### Output:
 
-### 23. `host` Command
+## 23. `host` Command
 
 The `host` command is used to display the IP address for a given domain name.
 
@@ -295,7 +297,7 @@ host www.amazon.com
 ![image](https://github.com/user-attachments/assets/a551b58b-26cd-4056-bc7f-38d0b531d21e)
 
 
-### 24. `gzip` Command
+## 24. `gzip` Command
 
 The `gzip` command is used to compress files, replacing the original file with a compressed one with a `.gz` extension.
 
@@ -304,9 +306,9 @@ The `gzip` command is used to compress files, replacing the original file with a
 gzip <file1> <file2> <file3>...
 ```
 
-**Output:**
+### Output:
 
-### 25. `sort` Command
+## 25. `sort` Command
 
 The `sort` command is used to sort the contents of a file alphabetically.
 
@@ -315,9 +317,9 @@ The `sort` command is used to sort the contents of a file alphabetically.
 sort <file_name>
 ```
 
-**Output:**
+### Output:
 
-### 26. `cal` Command
+## 26. `cal` Command
 
 The `cal` command displays the current month's calendar with the current date highlighted.
 
@@ -326,9 +328,9 @@ The `cal` command displays the current month's calendar with the current date hi
 cal
 ```
 
-**Output:**
+### Output:
 
-### 27. `clear` Command
+## 27. `clear` Command
 
 The `clear` command clears the terminal screen.
 
@@ -337,9 +339,9 @@ The `clear` command clears the terminal screen.
 clear
 ```
 
-**Output:**
+### Output:
 
-### 28. `mail` Command
+## 28. `mail` Command
 
 The `mail` command is used to send emails from the command line.
 
@@ -348,9 +350,9 @@ The `mail` command is used to send emails from the command line.
 mail
 ```
 
-**Output:**
+### Output:
 
-### 29. `df` Command
+## 29. `df` Command
 
 The `df` command displays the disk space usage of file systems.
 
@@ -360,10 +362,9 @@ df
 ```
 
 ### Output:
-![image](https://github.com/user-attachments/assets/079d7864-67a3-4246-b85a-7fed76b5e334)
+![image](https://github.com/user-attachments/assets/8d3b62c0-5558-4162-a2cd-ea07d45701d7)
 
-
-### 30. `find` Command
+## 30. `find` Command
 
 The `find` command is used to search for files in a directory hierarchy.
 
@@ -378,4 +379,5 @@ find /etc -name "passwd"
 ![image](https://github.com/user-attachments/assets/74844dc1-0c8a-45d3-ac0d-93da990187ca)
 
 
-## Result
+## Result :
+Linux commands are executed in the linux terminal successfully.
