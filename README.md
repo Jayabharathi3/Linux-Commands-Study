@@ -70,7 +70,7 @@ The `cd` command is used to change the current directory.
 ```bash
 cd <directory_name>
 create a directory : mkdir cloud1
-change the current directory : cd cloud1c
+change the current directory : cd cloud1
 ```
 
 ### Output:
@@ -111,9 +111,11 @@ cp filename.txt filename1.txt
 **Syntax:**
 ```bash
 gedit <file_name>
+gedit filename.txt 
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/d16fe2e2-f203-467a-a256-9a279889ae51)
 
 ## 9. `su` Command
 
@@ -149,10 +151,12 @@ The `rename` command is used to rename files.
 
 **Syntax:**
 ```bash
-rename 's/old-name/new-name/' <files>
+rename oldfile.txt newfile.txt
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/749822e3-c9dc-431f-b573-cf200afa24ac)
+
 
 ## 12. `head` Command
 
@@ -161,9 +165,12 @@ The `head` command displays the first 10 lines of a file.
 **Syntax:**
 ```bash
 head <file_name>
+head filename.txt 
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/f4dbcef7-ff80-436a-8a47-83f63f8e1e70)
+
 
 ## 13. `tail` Command
 
@@ -172,9 +179,11 @@ The `tail` command displays the last 10 lines of a file.
 **Syntax:**
 ```bash
 tail <file_name>
+tail filename.txt 
 ```
-
 ### Output:
+![image](https://github.com/user-attachments/assets/bd496d57-44d8-4b7e-8305-e2359d5fc121)
+
 
 ## 14. `id` Command
 
@@ -202,62 +211,81 @@ command | grep <search_word>
 ![image](https://github.com/user-attachments/assets/aad161ad-1d4d-4252-b154-22fcd6944ff2)
 
 
-### 16. `tr` Command
+## 16. `tr` Command
 
 The `tr` command is used to translate or delete characters.
 
 **Syntax:**
 ```bash
 command | tr <old> <new>
+echo "hello world" | tr 'a-z' 'A-Z'
+echo "banana" | tr -d 'a'
+echo "one two three" | tr ' ' '\n'
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/4801f8d1-9221-4969-810d-f945155db023)
 
-### 17. `chmod` Command
+
+## 17. `chmod` Command
 
 The `chmod` command is used to change the access mode (permissions) of a file.
 
 **Syntax:**
 ```bash
 chmod <options> <permissions> <file_name>
+chmod 755 file1
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/965bfe60-371a-4ccc-99ea-ecfae690308e)
 
-### 18. `tar` Command
+
+## 18. `tar` Command
 
 The `tar` command is used to create or extract archive files.
 
 **Syntax:**
 ```bash
 tar [options] [archive-file] [files_to_archive]
+tar -cvf archive.tar file1 file2
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/bf37f2b2-e877-4db2-96ad-94a8dd21c776)
 
-### 19. `chown` Command
+
+## 19. `chown` Command
 
 The `chown` command is used to change the ownership of a file.
 
 **Syntax:**
 ```bash
 chown <owner_name> <file_name>
+chown bharathi:root file1
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/1a2e9440-d1e7-41b7-91d9-bcf5baf6e6c3)
 
-### 20. `make` Command
+
+## 20. `make` Command
 
 The `make` command is used to build and maintain groups of programs.
 
 **Syntax:**
 ```bash
 make [-f makefile] [options] [targets]
+nano Makefile
+make
+make clean
 ```
 
-**Output:**
+### Output:
+![image](https://github.com/user-attachments/assets/bbb8e1d8-2649-4945-b75a-8fa3f720e9c3)
 
-###\ 21. `ifconfig` Command
+
+## 21. `ifconfig` Command
 
 The `ifconfig` command is used to configure network interfaces.
 
@@ -277,10 +305,11 @@ The `chmod 777` command gives read, write, and execute permissions to the owner,
 **Syntax:**
 ```bash
 chmod 777 <file_name>
-chmod -R 777 /path/to/file/or/folder
+chmod 777 filename.txt 
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/3c34e47b-a812-43d7-bfbc-3aab505114c9)
 
 ## 23. `host` Command
 
@@ -303,10 +332,15 @@ The `gzip` command is used to compress files, replacing the original file with a
 
 **Syntax:**
 ```bash
-gzip <file1> <file2> <file3>...
+gzip filename.txt
+gzip -d filename.txt.gz
+gzip -k filename.txt
+gzip -l filename.txt.gz  
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/761d6bed-dd17-43b9-805f-124dfd9b66b8)
+
 
 ## 25. `sort` Command
 
@@ -315,9 +349,11 @@ The `sort` command is used to sort the contents of a file alphabetically.
 **Syntax:**
 ```bash
 sort <file_name>
+sort filename.txt
 ```
-
 ### Output:
+![image](https://github.com/user-attachments/assets/539348b5-92c8-4a67-bdff-c848d2754c11)
+
 
 ## 26. `cal` Command
 
@@ -329,6 +365,7 @@ cal
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/de1082c8-49d7-4fc6-b64a-2446c3abad56)
 
 ## 27. `clear` Command
 
@@ -340,6 +377,8 @@ clear
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/bb7a7e1f-ae07-4e6c-91b8-5ec792fe6402)
+
 
 ## 28. `mail` Command
 
@@ -351,6 +390,8 @@ mail
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/db5cad74-8a0f-452f-bbd8-67ce911afbd0)
+
 
 ## 29. `df` Command
 
