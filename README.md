@@ -20,6 +20,7 @@ ls
 ### Output:
 ![image](https://github.com/user-attachments/assets/5b359783-294e-4c1b-ad8d-86dfffda4dab)
 
+
 ## 2. `pwd` Command
 
 The `pwd` command displays the location of the current working directory.
@@ -30,6 +31,7 @@ pwd
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/565c3ba6-86f4-4a9c-ac4c-661604f695c1)
+
 
 ## 3. `mkdir` Command
 
@@ -44,6 +46,7 @@ mkdir cloud
 ### Output:
 ![image](https://github.com/user-attachments/assets/8e86d415-fff4-404a-9713-9a71a0a9c7f8)
 
+
 ## 4. `rmdir` Command
 
 The `rmdir` command is used to delete a directory.
@@ -56,6 +59,7 @@ rmdir cloud
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/9863ccd9-331d-4d68-88c9-a0a28cbaf691)
+
 
 ### 5. `cd` Command
 
@@ -71,6 +75,7 @@ change the current directory : cd cloud1
 ### Output:
 ![image](https://github.com/user-attachments/assets/ed658dda-4b8c-4c71-b154-eca73f4a0332)
 
+
 ## 6. `cat` Command
 
 The `cat` command is used to create, display, and concatenate files.
@@ -83,6 +88,7 @@ cat filename.txt
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/db943ee0-c4bd-4d42-8d3f-97deb2ae3973)
+
 
 ## 7. `cp` Command
 
@@ -97,6 +103,7 @@ cp filename.txt filename1.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/77d3a031-0300-47c2-b7cd-0ef428c49b28)
 
+
 ## 8. `gedit` Command
 
 `gedit` is a general-purpose text editor used to create and edit text files.
@@ -110,6 +117,7 @@ gedit filename.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/d16fe2e2-f203-467a-a256-9a279889ae51)
 
+
 ## 9. `su` Command
 
 The `su` command provides administrative access to another user.
@@ -122,6 +130,7 @@ su root
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/da3d9bab-1f43-4fd2-936d-cd5d208eb605)
+
 
 ## 10. `mv` Command
 
@@ -149,6 +158,7 @@ rename oldfile.txt newfile.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/749822e3-c9dc-431f-b573-cf200afa24ac)
 
+
 ## 12. `head` Command
 
 The `head` command displays the first 10 lines of a file.
@@ -162,6 +172,7 @@ head filename.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/f4dbcef7-ff80-436a-8a47-83f63f8e1e70)
 
+
 ## 13. `tail` Command
 
 The `tail` command displays the last 10 lines of a file.
@@ -173,6 +184,7 @@ tail filename.txt
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/bd496d57-44d8-4b7e-8305-e2359d5fc121)
+
 
 ## 14. `id` Command
 
@@ -186,6 +198,7 @@ id
 ### Output:
 ![image](https://github.com/user-attachments/assets/ad42807e-d328-4d8d-97e3-fb18dd632c9f)
 
+
 ### 15. `grep` Command
 
 The `grep` command is used to search for a pattern within files.
@@ -197,6 +210,7 @@ command | grep <search_word>
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/aad161ad-1d4d-4252-b154-22fcd6944ff2)
+
 
 ## 16. `tr` Command
 
@@ -213,6 +227,7 @@ echo "one two three" | tr ' ' '\n'
 ### Output:
 ![image](https://github.com/user-attachments/assets/4801f8d1-9221-4969-810d-f945155db023)
 
+
 ## 17. `chmod` Command
 
 The `chmod` command is used to change the access mode (permissions) of a file.
@@ -225,6 +240,7 @@ chmod 755 file1
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/965bfe60-371a-4ccc-99ea-ecfae690308e)
+
 
 ## 18. `tar` Command
 
@@ -239,6 +255,7 @@ tar -cvf archive.tar file1 file2
 ### Output:
 ![image](https://github.com/user-attachments/assets/bf37f2b2-e877-4db2-96ad-94a8dd21c776)
 
+
 ## 19. `chown` Command
 
 The `chown` command is used to change the ownership of a file.
@@ -251,6 +268,7 @@ chown bharathi:root file1
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/1a2e9440-d1e7-41b7-91d9-bcf5baf6e6c3)
+
 
 ## 20. `make` Command
 
@@ -267,6 +285,7 @@ make clean
 ### Output:
 ![image](https://github.com/user-attachments/assets/bbb8e1d8-2649-4945-b75a-8fa3f720e9c3)
 
+
 ## 21. `ifconfig` Command
 
 The `ifconfig` command is used to configure network interfaces.
@@ -278,6 +297,7 @@ ifconfig [options] [interface]
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/2f4044fd-18f2-412f-9c12-b8b04a09a808)
+
 
 ## 22. `chmod 777` Command
 
@@ -292,6 +312,7 @@ chmod 777 filename.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/3c34e47b-a812-43d7-bfbc-3aab505114c9)
 
+
 ## 23. `host` Command
 
 The `host` command is used to display the IP address for a given domain name.
@@ -305,6 +326,7 @@ host www.amazon.com
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/a551b58b-26cd-4056-bc7f-38d0b531d21e)
+
 
 ## 24. `gzip` Command
 
@@ -321,6 +343,7 @@ gzip -l filename.txt.gz
 ### Output:
 ![image](https://github.com/user-attachments/assets/761d6bed-dd17-43b9-805f-124dfd9b66b8)
 
+
 ## 25. `sort` Command
 
 The `sort` command is used to sort the contents of a file alphabetically.
@@ -334,6 +357,7 @@ sort filename.txt
 ### Output:
 ![image](https://github.com/user-attachments/assets/539348b5-92c8-4a67-bdff-c848d2754c11)
 
+
 ## 26. `cal` Command
 
 The `cal` command displays the current month's calendar with the current date highlighted.
@@ -345,6 +369,7 @@ cal
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/de1082c8-49d7-4fc6-b64a-2446c3abad56)
+
 
 ## 27. `clear` Command
 
@@ -358,6 +383,7 @@ clear
 ### Output:
 ![image](https://github.com/user-attachments/assets/bb7a7e1f-ae07-4e6c-91b8-5ec792fe6402)
 
+
 ## 28. `mail` Command
 
 The `mail` command is used to send emails from the command line.
@@ -370,6 +396,7 @@ mail
 ### Output:
 ![image](https://github.com/user-attachments/assets/db5cad74-8a0f-452f-bbd8-67ce911afbd0)
 
+
 ## 29. `df` Command
 
 The `df` command displays the disk space usage of file systems.
@@ -381,6 +408,7 @@ df
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/8d3b62c0-5558-4162-a2cd-ea07d45701d7)
+
 
 ## 30. `find` Command
 
